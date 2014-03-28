@@ -21,4 +21,8 @@ class App
 	end
 end
 
+time_start = Time.now
 app = App.new
+time_end = Time.now
+
+puts "Execution duration: " + (time_end - time_start).to_s + " seconds!"
